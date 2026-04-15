@@ -1,0 +1,167 @@
+    * {
+      box-sizing: border-box;
+      margin: 0;   
+      padding: 0;  
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #111; 
+      color: #fff;     
+    }
+
+   
+    .container {
+      max-width: 430px;  
+      margin: 0 auto;   
+      padding: 0 0 1rem; 
+    }
+
+  
+    .header {
+      padding: 14px 16px 8px;
+    }
+
+    .header h1 {
+      font-size: 17px;
+      font-weight: 600; 
+      color: #fff;
+    }
+
+    .header p {
+      font-size: 12px;
+      color: #aaa;       
+      margin-top: 2px;   
+    }
+
+    
+    .legend {
+      display: flex;    
+      flex-wrap: wrap;   
+      gap: 6px 12px;    
+      padding: 6px 16px 10px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center; 
+      gap: 5px;          
+      font-size: 11px;
+      color: #aaa;
+    }
+
+    
+    .dot {
+      
+      width: 10px;
+      height: 10px;
+      border-radius: 50%; 
+      flex-shrink: 0;     
+    }
+
+   
+
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%; 
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+
+    thead th {
+      padding: 6px 4px;
+      color: #888;       
+      font-weight: 400;    
+      font-size: 13px;
+      text-align: center;
+      border-bottom: 0.5px solid #333; 
+    }
+
+    thead th.left {
+      text-align: left;
+      padding-left: 8px;
+    }
+
+    tbody tr {
+      border-bottom: 0.5px solid #222; 
+    }
+
+    tbody tr:last-child {
+      border-bottom: none;
+    }
+
+    tbody td {
+      padding: 7px 4px;
+      color: #eee;         
+      text-align: center;
+      vertical-align: middle; 
+    }
+
+    tbody td.left {
+      text-align: left;
+      padding-left: 0;
+    }
+
+   
+    .team-cell {
+      display: flex;       
+      align-items: center; 
+      gap: 6px;           
+      min-width: 140px;   
+    }
+
+    .badge {
+      width: 4px;
+      height: 30px;
+      border-radius: 2px;
+    }
+
+
+    .escudo {
+      width: 22px;
+      height: 22px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    .pos-num {
+      font-size: 11px;
+      color: #777;     
+      min-width: 14px;   
+      text-align: right;
+    }
+
+    .team-name {
+      font-size: 13px;
+    }
+
+    .pts {
+      font-weight: 750;
+      color: #fff;
+    }
+
+    .sg-pos  { color: #2e9e2e; } 
+    .sg-neg  { color: #cc3333; } 
+    .sg-zero { color: #888; }  
+
+   
+    .form {
+      display: flex;
+      gap: 2px;             
+      justify-content: center; 
+    }
+
+    .f {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%; 
+      flex-shrink: 0;
+    }
+
+    
+    .f.w { background: #2e9e2e; } 
+    .f.d { background: #666;    } 
+    .f.l { background: #cc3333; } 
